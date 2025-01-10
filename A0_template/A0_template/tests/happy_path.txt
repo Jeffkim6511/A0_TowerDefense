@@ -1,0 +1,44 @@
+# happy_path.txt - a simple set of tests
+
+# Task 6 - create a Salmon entity that can swim with speed 3.
+BREAK Task6-Add-Swimming-Salmon
+ADD Salmon
+ADD Salmon swims
+SET Salmon swims.speed 3
+PRINT Salmon
+
+# Task 7 - create a Duck entity that can swim, fly, and floats.
+BREAK Task7-Adding-Duck-Swims-Flies-Floats
+ADD Duck
+ADD Duck swims
+ADD Duck flies
+ADD Duck floats
+PRINT Duck
+
+# Task 8a - add the ability to fly to the existing Salmon
+BREAK Task8a-Add-Flying-Salmon
+ADD Salmon flies
+PRINT Salmon
+
+# Task 8b - remove the ability to fly from the existing Duck
+BREAK Task8b-Remove-Flying-Duck
+REMOVE Duck flies
+PRINT Duck
+
+# Task 9
+BREAK Task9-Increase-Salmon-Swim-by-5
+INC Salmon swims.speed +5.0
+PRINT Salmon
+
+# Task 10
+BREAK Task10a-Set-Salmon-XY
+ADD Salmon position
+SET Salmon position.x 10.0
+SET Salmon position.y 5.0
+PRINT Salmon
+
+BREAK Task10b-Set-Duck-XY
+ADD Duck position
+SET Duck position.x 3.0
+SET Duck position.y -2.0
+PRINT Duck

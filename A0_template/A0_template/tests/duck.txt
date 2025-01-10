@@ -1,0 +1,6 @@
+# duck.txt - a simple duck add and print
+BREAK Duck-Add-Floats-Flies-Print
+ADD Duck
+ADD Duck floats
+ADD Duck flies
+PRINT Duck

@@ -1,0 +1,9 @@
+# duck_buoyancy.txt - a simple Duck add, with position for buoyancy
+BREAK Duck-Add-Floats-Flies-Position-Print
+ADD Duck
+ADD Duck floats
+ADD Duck flies
+ADD Duck position
+SET Duck position.x 3.3
+SET Duck position.y -3.75
+PRINT Duck

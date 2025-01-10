@@ -1,0 +1,65 @@
+# full_test.txt - your program must pass all of these tests successfully for full marks
+BREAK Adding-Salmon
+ADD Salmon
+ADD Salmon swims
+ADD Salmon floats
+ADD Salmon flies
+# forced-error test, try adding flies to Salmon twice
+ADD Salmon flies
+ADD Salmon position
+SET Salmon swims.speed 5
+# forced-error test, try to add an unknown Component: float.speed
+SET Salmon floats.speed 7
+SET Salmon position.x 100.1
+SET Salmon position.y -1.29
+PRINT Salmon
+
+BREAK Remove-Salmon-floats
+REMOVE Salmon floats
+PRINT Salmon
+
+BREAK Adding-Duck
+ADD Duck
+ADD Duck flies
+ADD Duck floats
+ADD Duck position
+SET Duck position.x -33.33
+SET Duck position.y -3.33
+PRINT Duck
+
+BREAK Increasing-Salmon-Y
+INC Salmon position.y 0.4
+PRINT Salmon
+
+BREAK Decreasing-Salmon-X
+DEC Salmon position.x 55.5
+PRINT Salmon
+
+BREAK Removing-Salmon
+REMOVE Salmon
+PRINT Salmon
+
+BREAK Testing-Non-Existing-Pigeon
+PRINT Pigeon
+
+BREAK Adding-Second-Salmon
+ADD Salmon
+PRINT Salmon
+
+BREAK Remove-Non-Existing-Pigeon-Flies
+REMOVE Pigeon flies
+
+BREAK Testing-Floating-Squirrel
+ADD Squirrel
+ADD Squirrel floats
+ADD Squirrel position
+SET Squirrel position.x 25
+SET Squirrel position.y -3.3
+
+BREAK Testing-Swimming-Dog
+ADD Dog
+ADD Dog swims
+ADD Dog floats
+ADD Dog position
+SET Dog position.x 0
+SET Dog position.y -1.49
